@@ -1,0 +1,59 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.h1{
+    @apply text-4xl font-bold uppercase tracking-[1.286px] mb-6 md:text-[56px] md:leading-[58px] md:tracking-[2px]
+}
+
+.h2{
+    @apply text-[28px] leading-normal font-bold uppercase tracking-[1px] mb-8 md:text-[40px] md:leading-[44px] md:tracking-[1.429px]
+}
+
+.h3{
+    @apply text-2xl leading-[36px] font-bold uppercase tracking-[0.857px] mb-6 md:text-[32px] md:tracking-[1.143px]
+}
+
+.h4{
+    @apply text-[28px] leading-normal font-bold uppercase tracking-[2px] mb-8
+}
+
+.h5{
+    @apply text-2xl leading-normal font-bold uppercase tracking-[1.714px] mb-8
+}
+
+.h6{
+    @apply text-[15px] leading-normal font-bold uppercase tracking-[1.071px] mb-[17px] lg:text-lg lg:leading-normal lg:tracking-[1.286px]
+}
+
+.overline{
+    @apply text-sm leading-normal font-normal uppercase tracking-[10px] mb-4
+}
+
+.sub-title{
+    @apply text-[13px] leading-[25px] font-bold uppercase tracking-[0.929px] mb-4
+}
+
+p{
+    @apply text-[15px] leading-[25px] font-normal opacity-50
+}
+
+.btn{
+    @apply text-[13px] leading-normal font-bold uppercase tracking-[1px] px-[30px] py-[15px] outline-none
+}
+
+.btn-primary{
+    @apply text-white bg-orange border-orange hover:bg-lightOrange hover:border-lightOrange
+}
+
+.btn-secondary{
+    @apply text-black bg-white border-black hover:text-white hover:bg-black hover:border-black
+}
+
+.btn-link{
+    @apply text-black opacity-50 after:content-['>'] after:text-orange hover:opacity-100 hover:text-orange
+}
+
+.nav-link{
+    @apply text-white text-[13px] leading-[25px] font-bold uppercase tracking-[2px] mb-4 transition-all hover:text-orange lg:mb-0 
+}
